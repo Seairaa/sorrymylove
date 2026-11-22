@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry, My Love ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="hearts">
+    ♡　 ♥　 ♡　 ♥　 ♡
+</div>
+
+<main class="container">
+    <div class="icon">💗</div>
+
+    <h1>I'm Sorry, My Love</h1>
+
+    <p class="subtitle">
+        There's something I want to tell you...
+    </p>
+
+    <button id="openBtn" onclick="openLetter()">
+        Open My Heart ♡
+    </button>
+
+    <div class="letter" id="letter">
+        <h2>For You, My Love.</h2>
+
+        <p>
+            Hi, Sabine.
+        </p>
+
+        <p>
+            Aku mau minta maaf atas semua hal yang mungkin
+            bikin kamu kecewa, sedih, atau bahkan merasa
+            nggak nyaman karena sikap aku.
+        </p>
+
+        <p>
+            Aku sadar kalau aku juga masih banyak kurangnya.
+            Sometimes I make mistakes, and I'm truly sorry
+            for that.
+        </p>
+
+        <p>
+            Aku nggak pernah bermaksud buat nyakitin kamu.
+            Aku masih mau belajar memahami kamu, memperbaiki
+            sikap aku, dan jadi seseorang yang lebih baik.
+        </p>
+
+        <p>
+            Thank you for being patient with me.
+            I really appreciate you, more than words can say.
+        </p>
+
+        <p>
+            I love you, and I'm sorry. ♡
+        </p>
+
+        <h3>Can you forgive me? </h3>
+
+        <button onclick="forgive()">
+            Of course ♡
+        </button>
+
+        <p id="response"></p>
+    </div>
+</main>
+
+<footer>
+    Made with love, just for you ♡
+</footer>
+
+<script>
+    function openLetter() {
+        document.getElementById("letter").style.display = "block";
+        document.getElementById("openBtn").style.display = "none";
+    }
+
+    function forgive() {
+        document.getElementById("response").innerHTML =
+            "Thank you, my favorite person. I love you! ♡";
+    }
+</script>
+
+<script>
+        function openLetter() {
+            document.getElementById("letter").style.display = "block";
+            document.getElementById("openBtn").style.display = "none";
+        }
+
+        function forgive() {
+            document.getElementById("response").innerHTML =
+                "Thank you, my favorite person. I love you! ♡";
+        }
+    </script>
+
+</body>
+</html>
